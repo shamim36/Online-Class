@@ -7,6 +7,7 @@ class JsonData {
       "area": "Bitung",
       "resort": "Bitung Resort",
       "price": 5000,
+      "beforeDiscountPrice": 15000,
       "roomSize": "905 Sqft",
     },
     {
@@ -16,6 +17,7 @@ class JsonData {
       "area": "Bitung",
       "resort": "Lembeh Resort",
       "price": 5000,
+      "beforeDiscountPrice": 15000,
       "roomSize": "905 Sqft",
     },
     {
@@ -25,6 +27,7 @@ class JsonData {
       "area": "Bitung",
       "resort": "Holiday Resort",
       "price": 5000,
+      "beforeDiscountPrice": 15000,
       "roomSize": "905 Sqft",
     },
     {
@@ -34,6 +37,7 @@ class JsonData {
       "area": "Times Square",
       "resort": "Desor Resort",
       "price": 5000,
+      "beforeDiscountPrice": 15000,
       "roomSize": "905 Sqft",
     },
     {
@@ -43,6 +47,7 @@ class JsonData {
       "area": "Times Square",
       "resort": "Indiana Resort",
       "price": 5000,
+      "beforeDiscountPrice": 15000,
       "roomSize": "905 Sqft",
     },
     {
@@ -52,6 +57,7 @@ class JsonData {
       "area": "Times Square",
       "resort": "Holywood Resort",
       "price": 5000,
+      "beforeDiscountPrice": 15000,
       "roomSize": "905 Sqft",
     },
   ];
