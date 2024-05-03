@@ -12,6 +12,7 @@ class _HouseAppState extends State<HouseApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
