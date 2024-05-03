@@ -174,25 +174,32 @@ class _HomePageState extends State<HomePage> {
 
   BottomNavigationBar bottomNavBar() {
     return BottomNavigationBar(
+      showSelectedLabels: true,
+      showUnselectedLabels: true,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
           icon: Icon(Icons.home_outlined),
           label: 'Home',
+          activeIcon: Icon(Icons.home_filled),
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.airplane_ticket_outlined),
+          activeIcon: Icon(Icons.airplane_ticket),
           label: 'My Order',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.save_outlined),
+          activeIcon: Icon(Icons.save),
           label: 'Save',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.chat_outlined),
+          activeIcon: Icon(Icons.chat),
           label: 'Chat Host',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.person_3_outlined),
+          activeIcon: Icon(Icons.person_3),
           label: 'Profile',
         ),
       ],
